@@ -88,7 +88,7 @@ function __theme_gruvbox_dark
   __printf_color 0 $bg
   __printf_color 7 'a8/99/84'
   __printf_color 8 '92/83/74'
-  __printf_color 9 'fb/59/34'
+  __printf_color 9 'fb/49/34'
   __printf_color 10 'b8/bb/26'
   __printf_color 11 'fa/bd/2f'
   __printf_color 12 '83/a5/98'
