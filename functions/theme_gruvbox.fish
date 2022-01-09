@@ -48,12 +48,12 @@ function __theme_gruvbox_base
 end
 
 function __theme_gruvbox_light
-  set -l bg 'fb/f1/c7'
+  set -l bg '27/19/1c'
   switch $contrast
     case "soft"
-      set bg 'f2/e5/bc'
+      set bg '27/19/1c'
     case "hard"
-      set bg 'f9/f5/d7'
+      set bg '27/19/1c'
   end
   command printf "\033]11;rgb:$bg\007"
 
@@ -73,12 +73,12 @@ function __theme_gruvbox_light
 end
 
 function __theme_gruvbox_dark
-  set -l bg '28/28/28'
+  set -l bg '27/19/1c'
   switch $contrast
     case "soft"
-      set bg '32/30/2f'
+      set bg '27/19/1c'
     case "hard"
-      set bg '1d/20/21'
+      set bg '27/19/1c'
   end
   command printf "\033]11;rgb:$bg\007"
 
